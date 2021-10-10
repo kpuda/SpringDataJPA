@@ -30,7 +30,6 @@ import javax.persistence.Embeddable;
         )
 })
 public class Guardian {
-
     private String name;
     private String email;
     private String mobile;

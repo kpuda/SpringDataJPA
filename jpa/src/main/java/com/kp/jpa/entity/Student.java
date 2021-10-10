@@ -30,7 +30,7 @@ public class Student {
     )
     @GeneratedValue(strategy = GenerationType.SEQUENCE,
     generator = "student_sequence")
-    private Long id;
+    private Long studentId;
     private String firstName;
     private String lastName;
     @Column(
